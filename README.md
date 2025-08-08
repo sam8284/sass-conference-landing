@@ -39,10 +39,9 @@ This project was created to:
 </p>
 
 
-## Live Demo (change)
+## Live Demo 
 
-🔗 [View Live Site](www.google.com)
-(Change)
+🔗 [View Live Site](https://sass-conference.netlify.app/)
 
 
 ## Project Structure
