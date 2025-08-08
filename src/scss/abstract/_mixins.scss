@@ -1,0 +1,60 @@
+@mixin flex-hori {
+    display: flex;
+    // flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+@mixin flex-vert {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+%ticket-padding {
+    padding: 0.25rem;
+    border-radius: 10px;
+}
+
+@mixin gen-padding-borders {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+%button-fill {
+    background: transparent;
+    position: relative;
+    z-index: 1;
+}
+
+%button-before {
+    content: '';
+    position: absolute;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    // background: v.$background;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+
+%button-after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    // background: v.$primary;
+    z-index: -2;
+}
