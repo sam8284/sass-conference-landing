@@ -41,7 +41,7 @@ This project was created to:
 
 ## Live Demo 
 
-🔗 [View Live Site](https://sass-conference.netlify.app/)
+🔗 [View Live Site](https://tech-sphere1.netlify.app/)
 
 
 ## Project Structure
